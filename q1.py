@@ -20,4 +20,4 @@ def toBinary(n):
     num += (n % 2) * (10 ** power)
     n = n/2
     power += 1
-  return str(num)
+  return num
